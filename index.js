@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const router = require('./router');
 const bodyparser = require('body-parser');
